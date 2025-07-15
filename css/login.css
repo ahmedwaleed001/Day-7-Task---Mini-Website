@@ -1,0 +1,107 @@
+ 
+:root{
+--color:lightblue;
+--color:salmon;
+--font-family:"Michroma", sans-serif;
+}/*Universal Selector**/
+
+ *{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+
+/*Nav -Bar (Un Order List with some styling)*/
+header{
+    margin-top:20px;
+  margin-left: 20px;;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  margin: 1px;
+  width: 97%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li:hover{
+    background-color: rgb(105, 174, 201);
+}
+
+         /*Naaaaaaaaaaaaaaaav*/
+body{
+
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../images/image1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.texts{
+    margin-top:17px;
+    padding: 3px;
+margin-left: 20px;
+color: aliceblue;
+}
+.texts p{
+
+    margin-left:10px;
+}
+.form{
+    align-items: center;
+    margin: 25px;
+    background-color: #33333388;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+.Form-regestration .form h3{
+    margin:5px;
+    color: aliceblue;
+    font-weight:10px;
+}
+
+ .Form-regestration .form input{
+    margin-left: 10px; /* why auto not working */
+    width: 250px;
+    height: 20px;
+    border-radius: 6px;
+    text-align: center;
+    
+    
+    
+}
+.Form-regestration .form label{
+    color: aliceblue;
+    margin: 10px;
+}
+
+.Form-regestration .form select{
+
+margin-left:10px;
+height:20px ;
+width: 250px;
+border-radius: 6px;
+}
+.Form-regestration .form textarea{
+    margin-left:10px;
+    border-radius: 6px;
+    width:250px ;
+    height: 55px;
+}
